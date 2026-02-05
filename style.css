@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url('bglily.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.profil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.profil img{
+    width: 100px;
+    height: 95px;
+    border-radius: 50%;
+}
+
+.profil h2{
+    color: white;
+    font-size: 1.1rem;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    font-size: 0.7rem;
+}
+
+.social a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+/* button */
+.sosmed{
+    background-color: rgba(158, 100, 109, 0.5);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+
+    width: 200px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.sosmed .emoji{
+    position: absolute;
+    left: 8px; 
+    top: 30%;
+    transform: translateY(-50%);
+    font-size: 1.8rem;
+    line-height: 1;
+}
+
+.sosmed i{
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+}
+
+.sosmed:hover{
+    background-color: rgb(65, 24, 24);
+    transition: 0.3s;
+}
+
+
+/* font */
+
+.fontsaya{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+.open-sans{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 0.9rem;
+    font-variation-settings: 
+    "wdth" 100;;
+}
+    
+.sosmed{
+    cursor: pointer;
+}
+
