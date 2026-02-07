@@ -2,8 +2,8 @@
 Saya membuat sebuah web profile sederhana yang menampilkan foto, nama, dan link sosial media.
 
 ## Penjelasan Kode HTML
-- ```<!DOCTYPE html>``` : digunakan untuk memberi tahu browser bahwa dokumen ini menggunakan HTML5
-- ```<html lang="en">``` : menandakan bahasa halaman adalah Bahasa Inggris
+- `<!DOCTYPE html>`: digunakan untuk memberi tahu browser bahwa dokumen ini menggunakan HTML5
+- `<html lang="en">` : menandakan bahasa halaman adalah Bahasa Inggris
 - Di dalam ```<head>```, terdapat `<meta charset="UTF-8">` yang berfungsi agar teks, simbol, dan emoji bisa terbaca dengan benar, 
 - `<meta name="viewport" content="width=device-width, initial-scale=1.0">` : membuat tampilan website responsif di berbagai perangkat.
 - `<title>My Profile</title>` : digunakan untuk memberi judul pada tab browser.  
