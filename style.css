@@ -6,7 +6,7 @@
 body{
     height: 100vh;
     width: 100%;
-    background-image: url('bglily.jpeg');
+    background-image: url('images/bglily.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -48,6 +48,9 @@ body{
     text-align: center;
     gap: 10px;
     font-size: 0.7rem;
+    background-color: rgba(158, 100, 109, 0.8);
+    padding: 2rem;
+    border-radius: 2rem;
 }
 
 .social a{
@@ -58,7 +61,7 @@ body{
 
 /* button */
 .sosmed{
-    background-color: rgba(158, 100, 109, 0.5);
+    background-color: rgba(246, 141, 157, 0.5);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
 
@@ -96,7 +99,6 @@ body{
 
 
 /* font */
-
 .fontsaya{
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
