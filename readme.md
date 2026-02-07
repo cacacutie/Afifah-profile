@@ -1,22 +1,39 @@
 # Afifah-profile
-Saya membuat sebuah web profile sederhana yang menampilkan foto, nama, dan link sosial media;
-<!DOCTYPE html> digunakan untuk memberi tahu browser bahwa dokumen ini menggunakan HTML5
-<html lang="en"> menandakan bahasa halaman adalah Bahasa Inggris. 
-<head> terdapat <meta charset="UTF-8"> yang berfungsi agar teks, simbol, dan emoji bisa terbaca dengan benar, 
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> yang membuat tampilan website responsif di berbagai perangkat.  
-<title>My Profile</title> digunakan untuk memberi judul pada tab browser.  
-<link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link href="https://fonts.googleapis.com/..."> digunakan untuk menghubungkan dan mengambil font dari Google Fonts seperti Open Sans dan Montserrat agar tampilan teks lebih menarik.  
-<link rel="stylesheet" href="style.css"> digunakan untuk menghubungkan file CSS eksternal yang mengatur desain seperti warna, ukuran, dan tata letak. 
-<script src="https://kit.fontawesome.com/..."></script> digunakan untuk memanggil icon dari Font Awesome seperti icon Instagram, Facebook, Twitter, LinkedIn, dan GitHub.  
-<body>` terdapat <div class="container"> sebagai pembungkus seluruh isi halaman.
-<div class="profil"> yang berisi <img src="caca.jpg" alt="foto profil"> untuk menampilkan foto profil.
-<h2 class="fontsaya"> untuk menampilkan nama atau sapaan. 
-<div class="social"> yang berisi beberapa tag <a href="..."> sebagai link menuju sosial media. 
-<div class="sosmed open-sans"> sebagai tombol yang menampilkan icon <i class="fa-brands ..."></i> atau emoji <span class="emoji">🏎️</span> beserta nama platform, dan pada link YouTube ditambahkan target="_blank" serta rel="noopener noreferrer" agar link terbuka di tab baru dengan lebih aman.
+Saya membuat sebuah web profile sederhana yang menampilkan foto, nama, dan link sosial media.
 
-# CSS
+## Penjelasan Kode HTML
+```html
+<!DOCTYPE html> /* digunakan untuk memberi tahu browser bahwa dokumen ini menggunakan HTML5 */
+<html lang="en"> /* menandakan bahasa halaman adalah Bahasa Inggris */
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7f4731297f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+```
 
+
+- ```html<!DOCTYPE html>``` 
+- ```<html lang="en">```  
+- ```<head>``` terdapat `<meta charset="UTF-8">` yang berfungsi agar teks, simbol, dan emoji bisa terbaca dengan benar, 
+- `<meta name="viewport" content="width=device-width, initial-scale=1.0">` yang membuat tampilan website responsif di berbagai perangkat.
+- `<title>My Profile</title>` digunakan untuk memberi judul pada tab browser.  
+- `<link rel="preconnect" href="https://fonts.googleapis.com">`: digunakan untuk menghubungkan dan mengambil font dari Google Fonts seperti Open Sans dan Montserrat agar tampilan teks lebih menarik.  
+- `<link rel="stylesheet" href="style.css">` digunakan untuk menghubungkan file CSS eksternal yang mengatur desain seperti warna, ukuran, dan tata letak. 
+- `<script src="https://kit.fontawesome.com/..."></script>` digunakan untuk memanggil icon dari Font Awesome seperti icon Instagram, Facebook, Twitter, LinkedIn, dan GitHub.  
+- `<body>` terdapat `<div class="container">` sebagai pembungkus seluruh isi halaman.
+- `<div class="profil">` yang berisi `<img src="caca.jpg" alt="foto profil">` untuk menampilkan foto profil.
+- `<h2 class="fontsaya">` untuk menampilkan nama atau sapaan. 
+- `<div class="social">` yang berisi beberapa tag `<a href="...">` sebagai link menuju sosial media. 
+- `<div class="sosmed open-sans">` sebagai tombol yang menampilkan icon `<i class="fa-brands ..."></i>` atau emoji `<span class="emoji">🏎️</span>`beserta nama platform, dan pada link YouTube ditambahkan `target="_blank"` serta `rel="noopener noreferrer"` agar link terbuka di tab baru dengan lebih aman.
+
+## Penjelasan Kode CSS
 * { margin: 0; padding: 0; } Reset semua elemen dengan menghilangkan margin dan padding default untuk konsistensi layout.
 body { height: 100vh; width: 100%; background-image: url('bglily.jpeg'); background-position: center; background-size: cover; background-repeat: no-repeat; display: flex; justify-content: center; align-items: center; } Mengatur body penuh tinggi viewport, lebar 100%, latar belakang gambar yang diposisikan tengah, ukuran cover, tidak diulang, dan menggunakan flexbox untuk memusatkan konten secara horizontal dan vertikal.
 container { display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 30px; } Membuat container sebagai flexbox vertikal, memusatkan item secara horizontal dan vertikal, dengan jarak 30px antar elemen.
